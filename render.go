@@ -14,7 +14,7 @@ import (
 // Paleta — mantém vibe do GitHub mas adapta pra terminal escuro.
 // 5 níveis (0..4) matching o ContributionLevel.
 var levelColors = []lipgloss.Color{
-	lipgloss.Color("#161b22"), // 0 — vazio (quase invisível em terminal dark)
+	lipgloss.Color("#21262d"), // 0 — vazio (cinza muito escuro, sutil mas visível)
 	lipgloss.Color("#0e4429"), // 1 — quartil 1
 	lipgloss.Color("#006d32"), // 2 — quartil 2
 	lipgloss.Color("#26a641"), // 3 — quartil 3
