@@ -1,0 +1,22 @@
+# Binary output
+gh-streak
+gh-streak.exe
+/dist/
+
+# Go
+*.test
+*.out
+vendor/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local env
+.env
+.env.local
